@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.custom-navbar {
+    padding: 0.5rem 2rem !important;
+    background-color: white !important; /* Sage Green */
+}
+
+.custom-navbar-brand,
+.nav-item .nav-link,
+.nav-icons a {
+    color: black !important; /* Salmon Pink */
+    font-size: 1.5rem; /* This will make your brand name a bit bigger */
+}
+
+.nav-item .nav-link {
+    font-size: 1.2rem; /* This will make your nav links a bit bigger */
+    transition: color 0.2s; /* This will make the color transition smoother */
+}
+
+.nav-item .nav-link:hover,
+.nav-icons a:hover {
+    color: #888; /* This will change the color of your nav links when you hover over them */
+}
+
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+body {
+    background-color: #FFE5D9; /* Peach */
+}
+.nav-item .nav-link a:hover {
+    color: #888;
+}
+.nav-item .nav-link a {
+    text-decoration: none; /* Removes the underline */
+    color: black; /* Makes the text black */
+    transition: color 0.2s; /* This will make the color transition smoother */
+}

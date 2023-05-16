@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.booking-header {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://via.placeholder.com/500') no-repeat center center/cover;
+    color: white;
+}
+
+.booking-header h1 {
+    font-size: 4rem;
+}
+
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0;
+    background: white;
+}
+
+.booking-container form {
+    width: 100%; 
+    max-width: 3000px; 
+    padding: 30px 10px;
+    margin: 20px auto;
+}
+
+.booking-container form .form-group {
+    margin-bottom: 35px;
+}
+
+.booking-container form input,
+.booking-container form select,
+.booking-container form textarea {
+    width: 100%; 
+    box-sizing: border-box;
+    border-radius: 0px !important; 
+}
+
+.btn-custom {
+    display: inline-block; /* Changed from block to inline-block */
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 0px; 
+    border: none;
+    padding: 2px 6px; /* Reduced padding */
+    font-size: 1.2em; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    line-height: 1; /* Added this to reduce the line-height */
+}
+
+.btn-custom:hover {
+    background-color: #444; 
+    color: #fff;
+    transform: translateY(-2px); 
+}
+
+.btn-custom:active {
+    transform: translateY(0); 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.full-width {
+    width: 100% !important; 
+}
